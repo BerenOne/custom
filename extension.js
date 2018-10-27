@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "BerenOne";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'basicBot',
+        botName: 'ayyBot',
         language: 'english',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -62,6 +62,7 @@
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
+        gifCommand: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -77,7 +78,7 @@
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        thorCommand: false,
+        thorCommand: true,
         thorCooldown: 10,
         skipPosition: 3,
         skipReasons: [
