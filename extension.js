@@ -48,8 +48,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: 'ayyBot',
         language: 'english',
-        chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        chatLink: 'https://rawgit.com/BerenOne/source/master/lang/en.json',
+        scriptLink: 'https://rawgit.com/BerenOne/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -62,7 +62,6 @@
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
-        gifCommand: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
